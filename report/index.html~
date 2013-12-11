@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+               "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<title>ITWS2-ASSIGNMENT 1</title>
+<meta http-equiv="Content-Type" content="text/html;charset=iso-8859-1"/>
+<meta name="title" content="ITWS2-ASSIGNMENT 1"/>
+<meta name="generator" content="Org-mode"/>
+<meta name="generated" content="2012-01-22 20:24:47 IST"/>
+<meta name="author" content="shubham.sangal"/>
+<meta name="description" content=""/>
+<meta name="keywords" content=""/>
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  html { font-family: Times, serif; font-size: 12pt; }
+  .title  { text-align: center; }
+  .todo   { color: red; }
+  .done   { color: green; }
+  .tag    { background-color: #add8e6; font-weight:normal }
+  .target { }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .right  {margin-left:auto; margin-right:0px;  text-align:right;}
+  .left   {margin-left:0px;  margin-right:auto; text-align:left;}
+  .center {margin-left:auto; margin-right:auto; text-align:center;}
+  p.verse { margin-left: 3% }
+  pre {
+	border: 1pt solid #AEBDCC;
+	background-color: #F3F5F7;
+	padding: 5pt;
+	font-family: courier, monospace;
+        font-size: 90%;
+        overflow:auto;
+  }
+  table { border-collapse: collapse; }
+  td, th { vertical-align: top;  }
+  th.right  { text-align:center;  }
+  th.left   { text-align:center;   }
+  th.center { text-align:center; }
+  td.right  { text-align:right;  }
+  td.left   { text-align:left;   }
+  td.center { text-align:center; }
+  dt { font-weight: bold; }
+  div.figure { padding: 0.5em; }
+  div.figure p { text-align: center; }
+  div.inlinetask {
+    padding:10px;
+    border:2px solid gray;
+    margin:10px;
+    background: #ffffcc;
+  }
+  textarea { overflow-x: auto; }
+  .linenr { font-size:smaller }
+  .code-highlighted {background-color:#ffff00;}
+  .org-info-js_info-navigation { border-style:none; }
+  #org-info-js_console-label { font-size:10px; font-weight:bold;
+                               white-space:nowrap; }
+  .org-info-js_search-highlight {background-color:#ffff00; color:#000000;
+                                 font-weight:bold; }
+  /*]]>*/-->
+</style>
+<script type="text/javascript">
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+
+</head>
+<body>
+
+<div id="preamble">
+
+</div>
+
+<div id="content">
+<h1 class="title">ITWS2-ASSIGNMENT 1</h1>
+
+
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#sec-1">1 <span style="text-decoration:underline;">QUESTION-WISE REPORT</span></a>
+<ul>
+<li><a href="#sec-1-1">1.1 LEVEL 1</a>
+<ul>
+<li><a href="#sec-1-1-1">1.1.1 QUESTION 1-1</a></li>
+<li><a href="#sec-1-1-2">1.1.2 QUESTION 1-2</a></li>
+</ul>
+</li>
+<li><a href="#sec-1-2">1.2 LEVEL 2</a>
+<ul>
+<li><a href="#sec-1-2-1">1.2.1 QUESTION 2-1</a></li>
+<li><a href="#sec-1-2-2">1.2.2 QUESTION 2-2</a></li>
+<li><a href="#sec-1-2-3">1.2.3 QUESTION 2-3</a></li>
+<li><a href="#sec-1-2-4">1.2.4 QUESTION 2-4</a></li>
+</ul>
+</li>
+<li><a href="#sec-1-3">1.3 LEVEL 3</a>
+<ul>
+<li><a href="#sec-1-3-1">1.3.1 QUESTION 3-1</a></li>
+<li><a href="#sec-1-3-2">1.3.2 QUESTION 3-2</a></li>
+<li><a href="#sec-1-3-3">1.3.3 QUESTION 3-3</a></li>
+</ul></li>
+</ul>
+</li>
+<li><a href="#sec-2">2 <span style="text-decoration:underline;">LINKS TO CODES</span></a>
+<ul>
+<li><a href="#sec-2-1">2.1 LEVEL 1 CODES</a></li>
+<li><a href="#sec-2-2">2.2 LEVEL 2 CODES</a></li>
+<li><a href="#sec-2-3">2.3 LEVEL 3 CODES</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-1" class="outline-2">
+<h2 id="sec-1"><span class="section-number-2">1</span> <span style="text-decoration:underline;">QUESTION-WISE REPORT</span></h2>
+<div class="outline-text-2" id="text-1">
+
+
+</div>
+
+<div id="outline-container-1-1" class="outline-3">
+<h3 id="sec-1-1"><span class="section-number-3">1.1</span> LEVEL 1</h3>
+<div class="outline-text-3" id="text-1-1">
+
+
+</div>
+
+<div id="outline-container-1-1-1" class="outline-4">
+<h4 id="sec-1-1-1"><span class="section-number-4">1.1.1</span> QUESTION 1-1</h4>
+<div class="outline-text-4" id="text-1-1-1">
+
+<p>    In this question,I have made use of <b>tar -tf</b> command to list the contents 
+of a.tar file or .tar.gz file without actually extracting it.
+</p>
+</div>
+
+</div>
+
+<div id="outline-container-1-1-2" class="outline-4">
+<h4 id="sec-1-1-2"><span class="section-number-4">1.1.2</span> QUESTION 1-2</h4>
+<div class="outline-text-4" id="text-1-1-2">
+
+<p>    Here ,I have made use of <b>ps t-</b> command to list the processes not associated 
+with terminal.
+</p></div>
+</div>
+
+</div>
+
+<div id="outline-container-1-2" class="outline-3">
+<h3 id="sec-1-2"><span class="section-number-3">1.2</span> LEVEL 2</h3>
+<div class="outline-text-3" id="text-1-2">
+
+
+</div>
+
+<div id="outline-container-1-2-1" class="outline-4">
+<h4 id="sec-1-2-1"><span class="section-number-4">1.2.1</span> QUESTION 2-1</h4>
+<div class="outline-text-4" id="text-1-2-1">
+
+<p>    In this question,we have to simulate <b>echo -n</b> command. So, I have made use 
+of $*. $* helps us to print all the parameters that we give with the command line.
+</p>
+</div>
+
+</div>
+
+<div id="outline-container-1-2-2" class="outline-4">
+<h4 id="sec-1-2-2"><span class="section-number-4">1.2.2</span> QUESTION 2-2</h4>
+<div class="outline-text-4" id="text-1-2-2">
+
+<p>    In this , I first used <b>ps aux</b> to list all processes.Then I reverse sorted them
+on the basis of their size and used <b>head -1</b> to select the first process and then 
+extracted the name of process using <b>cut</b>.
+</p>
+</div>
+
+</div>
+
+<div id="outline-container-1-2-3" class="outline-4">
+<h4 id="sec-1-2-3"><span class="section-number-4">1.2.3</span> QUESTION 2-3</h4>
+<div class="outline-text-4" id="text-1-2-3">
+
+<p>    I used <b>who -s</b> first to list all users logged on the system along with their 
+some other information. And then extracted the first field(name field) of the 
+<span style="text-decoration:underline;">users</span>.
+</p>
+</div>
+
+</div>
+
+<div id="outline-container-1-2-4" class="outline-4">
+<h4 id="sec-1-2-4"><span class="section-number-4">1.2.4</span> QUESTION 2-4</h4>
+<div class="outline-text-4" id="text-1-2-4">
+
+<p>    To remove the process associated with the <b>grep</b> from the long list that comes 
+after doing <b>ps elf | grep firefox</b> I have used <b>grep -v grep</b> because v with grep
+reverse the sense of matching.i.e.print those lines which dont have grep in them.
+</p>
+</div>
+</div>
+
+</div>
+
+<div id="outline-container-1-3" class="outline-3">
+<h3 id="sec-1-3"><span class="section-number-3">1.3</span> LEVEL 3</h3>
+<div class="outline-text-3" id="text-1-3">
+
+
+</div>
+
+<div id="outline-container-1-3-1" class="outline-4">
+<h4 id="sec-1-3-1"><span class="section-number-4">1.3.1</span> QUESTION 3-1</h4>
+<div class="outline-text-4" id="text-1-3-1">
+
+<p>    I used <b>find -maxdepth 2 type -f -ls</b> to display the files along with their sizes
+upto 2 levels and then as 2-2 reverse sorted the list based on size and extracted the
+name of largest file.
+</p>
+</div>
+
+</div>
+
+<div id="outline-container-1-3-2" class="outline-4">
+<h4 id="sec-1-3-2"><span class="section-number-4">1.3.2</span> QUESTION 3-2</h4>
+<div class="outline-text-4" id="text-1-3-2">
+
+<p>    I first listed the files with ~ using <b>grep</b> and <b>ls</b> and counted no of obtained
+files using <b>wc -l</b> and then using <b>rm</b> in a loop recursively deleted the obtained
+files.
+</p>
+</div>
+
+</div>
+
+<div id="outline-container-1-3-3" class="outline-4">
+<h4 id="sec-1-3-3"><span class="section-number-4">1.3.3</span> QUESTION 3-3</h4>
+<div class="outline-text-4" id="text-1-3-3">
+
+<p>    First,I found out the PID of <b>flash video</b> and then
+</p>
+
+</div>
+</div>
+</div>
+
+</div>
+
+<div id="outline-container-2" class="outline-2">
+<h2 id="sec-2"><span class="section-number-2">2</span> <span style="text-decoration:underline;">LINKS TO CODES</span></h2>
+<div class="outline-text-2" id="text-2">
+
+
+</div>
+
+<div id="outline-container-2-1" class="outline-3">
+<h3 id="sec-2-1"><span class="section-number-3">2.1</span> LEVEL 1 CODES</h3>
+<div class="outline-text-3" id="text-2-1">
+
+<p><a href="../codes/1-1.sh">code 1-1 </a><a href="../codes/1-2.sh">code 1-2</a>
+</p></div>
+
+</div>
+
+<div id="outline-container-2-2" class="outline-3">
+<h3 id="sec-2-2"><span class="section-number-3">2.2</span> LEVEL 2 CODES</h3>
+<div class="outline-text-3" id="text-2-2">
+
+<p><a href="../codes/2-1.sh">code 2-1</a>
+<a href="../codes/2-2.sh">code 2-2</a>
+<a href="../codes/2-3.sh">code 2-3</a>
+<a href="../codes/2-4.sh">code 2-4</a>
+</p></div>
+
+</div>
+
+<div id="outline-container-2-3" class="outline-3">
+<h3 id="sec-2-3"><span class="section-number-3">2.3</span> LEVEL 3 CODES</h3>
+<div class="outline-text-3" id="text-2-3">
+
+<p><a href="../codes/3-1.sh">code 3-1</a>
+<a href="../codes/3-2.sh">code 3-2</a>
+<a href="../codes/3-3.sh">code 3-3</a>
+</p></div>
+</div>
+</div>
+</div>
+
+<div id="postamble">
+<p class="date">Date: 2012-01-22 20:24:47 IST</p>
+<p class="author">Author: shubham.sangal</p>
+<p class="creator">Org version 7.8.03 with Emacs version 23</p>
+<a href="http://validator.w3.org/check?uri=referer">Validate XHTML 1.0</a>
+
+</div>
+</body>
+</html>

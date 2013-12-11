@@ -1,0 +1,150 @@
+#+TITLE:ITWS2-ASSIGNMENT 1
+#+NAME:SHUBHAM SANGAL
+#+ROLL NO:201101008
+
+* _QUESTION-WISE REPORT_
+** LEVEL 1 
+*** QUESTION 1-1
+    In this question,I have made use of *tar -tf* command to list the contents 
+of a.tar file or .tar.gz file without actually extracting it.
+
+*** QUESTION 1-2
+    Here ,I have made use of *ps t-* command to list the processes not associated 
+with terminal.
+** LEVEL 2
+*** QUESTION 2-1
+    In this question,we have to simulate *echo -n* command. So, I have made use 
+of $*. $* helps us to print all the parameters that we give with the command line.
+
+*** QUESTION 2-2
+    In this , I first used *ps aux* to list all processes.Then I reverse sorted them
+on the basis of their size and used *head -1* to select the first process and then 
+extracted the name of process using *cut*.
+
+*** QUESTION 2-3
+    I used *who -s* first to list all users logged on the system along with their 
+some other information. And then extracted the first field(name field) of the 
+_users_.
+  
+*** QUESTION 2-4
+    To remove the process associated with the *grep* from the long list that comes 
+after doing *ps elf | grep firefox* I have used *grep -v grep* because v with grep
+reverse the sense of matching.i.e.print those lines which dont have grep in them.
+
+** LEVEL 3
+*** QUESTION 3-1
+    I used *find -maxdepth 2 type -f -ls* to display the files along with their sizes
+upto 2 levels and then as 2-2 reverse sorted the list based on size and extracted the
+name of largest file.
+
+*** QUESTION 3-2
+    I first listed the files with ~ using *grep* and *ls* and counted no of obtained
+files using *wc -l* and then using *rm* in a loop recursively deleted the obtained
+files.
+
+*** QUESTION 3-3
+    First,I found out the PID of *flash video* and then open that pid folder in /proc
+and listed the flv files and then copied the id of 
+
+
+* _LINKS TO CODES_
+** LEVEL 1 CODES
+ 
+[[../codes/1-1.sh][code 1-1
+]]
+#+begin_example
+INPUT:
+./1.1.sh a.tar.gz
+OUTPUT
+1.txt
+2.txt
+#+end_example
+[[../codes/1-2.sh][
+code 1-2]]
+#+begin_example
+INPUT:
+ $ ./1-2.sh
+OUTPUT:
+CMD                           PID
+/sbin/init                      1
+[kthreadd]                      2
+[ksoftirqd/0]                   3
+[migration/0]                   6
+[watchdog/0]                    7
+[cpuset]                        8
+[khelper]                       9
+[netns]                        10
+[sync_supers]                  11
+[bdi-default]                  12
+[kintegrityd]                  13
+[kblockd]                      14
+[kacpid]                       15
+#+end_example
+
+** LEVEL 2 CODES
+
+[[../codes/2-1.sh][code 2-1]]
+#+begin_example
+INPUT:
+[user@workstation-12 codes]$ ./2-1.sh my name is raju
+OUTPUT:
+my name is raju[user@workstation-12 codes]$ 
+#+end_example
+
+[[../codes/2-2.sh][code 2-2]]
+#+begin_example
+INPUT:
+$ ./2-2.sh
+OUTPUT:
+ /usr/lib/firefox-3.5b4/firefox 21063
+#+end_example
+
+[[../codes/2-3.sh][code 2-3]]
+#+begin_example
+INPUT:
+$ ./2-3.sh
+OUTPUT:
+user
+user
+user
+user
+#+end_example
+
+[[../codes/2-4.sh][code 2-4]]
+#+begin_example
+INPUT:
+./2-4.sh firefox
+OUTPUT:
+0 S user     21048     1  0  80   0 -  1220 wait   Jan22 ?        00:00:00 /bin/sh /usr/lib/firefox-3.5b4/run-mozilla.sh /usr/lib/firefox-3.5b4/firefox
+0 S user     21063 21048  2  80   0 - 104578 poll_s Jan22 ?       00:33:45 /usr/lib/firefox-3.5b4/firefox
+0 S user     25509 24025  0  80   0 -  1220 wait   04:14 pts/1    00:00:00 /bin/bash ./2-4.sh firefox
+#+end_example
+
+** LEVEL 3 CODES
+
+[[../codes/3-1.sh][code 3-1]]
+#+begin_example
+INPUT:
+$ ./3-1.sh /home/user
+OUTPUT:
+/home/user/Download/firefox-9.0.1.tar.bz2
+#+end_example
+
+[[../codes/3-2.sh][code 3-2]]
+#+begin_example
+INPUT:
+/3-2.sh /home/user/a
+OUTPUT:
+Removed files
+d~
+.f~
+s~
+#+end_example
+
+[[../codes/3-3.sh][code 3-3]]
+#+begin_example
+INPUT:
+$/3-3.sh film.flv
+OUTPUT:
+Video film.flv saved successfully
+#+end_example

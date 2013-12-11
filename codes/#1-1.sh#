@@ -1,0 +1,9 @@
+#!/bin/bash
+if  [[ "$1" -eq  *.tar.gz || "$1" -eq *.tar ]]
+then
+ls -1 $(tar -tf $1 | tail -1 | cut -d "/" -f1)
+else
+echo "error: given file is not a tar file"
+fi
+
+#echo $#
